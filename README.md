@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the automated deployment of a Python web application using Flask, Docker, Kubernetes, and Jenkins CI/CD. It also includes monitoring with Prometheus and Grafana for Jenkins servers and the Kubernetes cluster.
+This project demonstrates the automated deployment of a Python web application using Flask, Docker, Kubernetes, MySQL and Jenkins CI/CD. It also includes monitoring with Prometheus and Grafana for Jenkins servers and the Kubernetes cluster.
 
 ## Features
 
@@ -26,8 +26,7 @@ This project demonstrates the automated deployment of a Python web application u
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/Agkyaws/Python_WebApp_CI-CD.git
     ```
 
 2. **Configure Jenkins**:
@@ -57,3 +56,19 @@ The Jenkins pipeline is defined in the `Jenkinsfile`. It performs the following 
 ## Contributing
 
 Feel free to submit issues or pull requests if you have suggestions or improvements.
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/Python%20DevOps%20project.jpg)
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/python%20web.png)
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/webapp%20swagger.png)
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/Jenkins%20Pipeline.png)
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/jenkins%20monitor.png)
+
+![Alt text](https://github.com/Agkyaws/testrepo/blob/master/prometheus.png)
+
+
+
+
