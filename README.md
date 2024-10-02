@@ -13,3 +13,47 @@ This project demonstrates the automated deployment of a Python web application u
 - **Jenkins CI/CD**: Automates the build, test, and deployment processes.
 - **Prometheus**: Collects metrics from Jenkins and Kubernetes.
 - **Grafana**: Visualizes metrics for real-time monitoring and alerting.
+
+### Prerequisites
+
+- Docker
+- Kubernetes
+- Jenkins
+- Prometheus
+- Grafana
+
+### Setup
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/your-repo.git
+    cd your-repo
+    ```
+
+2. **Configure Jenkins**:
+    - Ensure Jenkins is set up with the necessary plugins for Docker and Kubernetes.
+    - Add your Docker and Kubernetes credentials to Jenkins.
+    - Create a new Jenkins pipeline job and point it to this repository.
+
+### Jenkins CI/CD Pipeline
+
+The Jenkins pipeline is defined in the `Jenkinsfile`. It performs the following steps:
+1. **Checkout**: Retrieves the latest code from the repository.
+2. **Build**: Builds the Docker image.
+3. **Push**: Pushes the Docker image to Docker Hub.
+4. **Deploy**: Applies the Kubernetes configurations to deploy the application.
+5. **Rollout Deployment**: Restarts the deployment to apply the latest changes.
+
+### Monitoring with Prometheus and Grafana
+
+- **Prometheus**: Collects metrics from Jenkins and Kubernetes.
+- **Grafana**: Visualizes the metrics for real-time monitoring and alerting.
+
+## Usage
+
+- Access the web application via the configured ingress URL.
+- Monitor the application and infrastructure using Grafana dashboards.
+
+## Contributing
+
+Feel free to submit issues or pull requests if you have suggestions or improvements.
