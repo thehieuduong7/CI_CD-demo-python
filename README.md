@@ -57,17 +57,17 @@ The Jenkins pipeline is defined in the `Jenkinsfile`. It performs the following 
 
 Feel free to submit issues or pull requests if you have suggestions or improvements.
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/Python%20DevOps%20project.jpg)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/Python%20DevOps%20project.jpg)
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/python%20web.png)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/python%20web.png)
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/webapp%20swagger.png)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/webapp%20swagger.png)
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/Jenkins%20Pipeline.png)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/Jenkins%20Pipeline.png)
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/jenkins%20monitor.png)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/jenkins%20monitor.png)
 
-![Alt text](https://github.com/Agkyaws/testrepo/blob/master/prometheus.png)
+![Alt text](https://github.com/Agkyaws/Python_WebApp_CI-CD/blob/main/img/prometheus.png)
 
 
 
